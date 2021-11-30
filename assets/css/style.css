@@ -493,6 +493,12 @@ h4 {
   background:url("../img/cover.png") center center no-repeat;
   background-size: cover;
 }
+#hero-1 {
+  width: 100%;
+
+  background:url("../img/cover.png") center center no-repeat;
+  background-size: cover;
+}
 
 #hero .container, #hero .container-fluid {
   padding-top: 50px;
