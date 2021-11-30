@@ -80,3 +80,14 @@ a:hover  {
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }
+
+@media (max-width: 554px) {
+    .our-team:hover .social li a{
+        background: #000000;
+        color: #fff;
+    }
+    .our-team:hover .pic{
+        background: #ffffff;
+        border-radius: 50%;
+    }
+}
