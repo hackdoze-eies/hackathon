@@ -34,6 +34,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/aditional.css">
+  <link rel="stylesheet" href="assets/css/timer.css">
 
   <!-- =======================================================
   * Template Name: Techie - v2.2.1
@@ -61,7 +62,7 @@
               <li><a href="#about">About</a></li>
               <li><a href="#services">Timeline</a></li>
               <li><a href="#features">Rules</a></li>
-              <li><a href="#portfolio">Sponsors</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
               <li><a href="team.html">Team</a></li>
               <li><a href="#contact">Contact</a></li>
 
@@ -83,15 +84,30 @@
         <div class="col-xl-2 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h2 style="font-style: italic;">"Python is an experiment in how much freedom programmers need"</h2>
           <h4 class="mt-8">- Guido Van Rossum -</h4>
-          <div><a href="" class="btn-get-started scrollto">Registration Closed</a></div>
+          <!-- <div><a href="" class="btn-get-started scrollto">Registration Closed</a></div> -->
         </div>
         <div class="col-xl-7 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
           <img src="assets/img/logo.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
-
   </section>
+
+  
+  <div class="row justify-content-center" style="background-color: #1e0720; padding-top: 30px;">
+    <div class="col-xl-12 col-lg-12 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column align-items-center">
+      <h1 id="headline" style="color: rgb(205, 50, 50); font-weight: bolder; font-family: Josefin Sans', sans-serif;  ">COUNTDOWN TO NEXT WORKSHOP</h1>
+      <div id="countdown">
+        <ul style="text-align: center;">
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 
   <main id="main">
 
@@ -159,11 +175,13 @@
         <div class="timeline">
           <div class="timeline-row">
               <div class="timeline-time">
-                  <p class="time">Dec 03</p>
+                  <p class="time">Dec 04</p>
               </div>
-              <div class="timeline-content">
-                  <i class="icon-attachment"></i>
-                  <h4 >WORKSHOP 1</h4>
+              <div class="timeline-content" style="background-color: rgba(18, 18, 72, 0.735);">
+                  <i class="icon-attachment" style="background-color: yellowgreen;"></i>
+                  <h4 >INTODUCTORY SESSION FOR <br> PYTHON</h4>
+                  <h5  style="color: red; font-weight: bold;">SUCCESSFULLY CONDUCTED</h5>
+
               </div>
           </div>
   
@@ -171,9 +189,10 @@
               <div class="timeline-time">
                   <p class="time">Dec 10</p>
               </div>
-              <div class="timeline-content">
-                  <i class="icon-code"></i>
-                  <h4>WORKSHOP 2</h4>
+              <div class="timeline-content" style="background-color: rgba(18, 18, 72, 0.735);">
+                  <i class="icon-code" style="background-color: yellowgreen;"></i>
+                  <h4>WORKSHOP DAY- 1</h4>
+                  <h5  style="color: red; font-weight: bold;">SUCCESSFULLY CONDUCTED</h5>
               
               </div>
           </div>
@@ -184,7 +203,8 @@
               </div>
               <div class="timeline-content">
                   <i class="icon-turned_in_not"></i>
-                  <h4>WORKSHOP 3</h4>
+                  <h4>WORKSHOP DAY- 2 </h4>
+                  <h5  style="color: rgb(136, 255, 0); font-weight: bold;">COMING SOON</h5>
               </div>
           </div>
   
@@ -194,7 +214,8 @@
               </div>
               <div class="timeline-content">
                   <i class="icon-directions"></i>
-                  <h4>WORKSHOP 4</h4>
+                  <h4>WORKSHOP DAY- 3</h4>
+                  <h5  style="color: rgb(136, 255, 0); font-weight: bold;">COMING SOON</h5>
               </div>
           </div>
   
@@ -204,7 +225,8 @@
               </div>
               <div class="timeline-content">
                   <i class="icon-change_history"></i>
-                  <h4>WORKSHOP 5</h4>
+                  <h4>WORKSHOP DAY- 4 </h4>
+                  <h5  style="color: rgb(136, 255, 0); font-weight: bold;">COMING SOON</h5>
               </div>
           </div>
   
@@ -412,6 +434,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/timer/timer.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
