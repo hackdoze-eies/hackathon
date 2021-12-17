@@ -504,6 +504,7 @@ h4 {
   padding-top: 50px;
 }
 
+
 #hero h1 {
   margin: 0;
   font-size: 52px;
@@ -652,6 +653,12 @@ section {
 .about {
   padding: 120px 0;
   background: #130720;
+}
+
+.about-1 {
+  text-align: center;
+  padding: auto 0;
+
 }
 
 .about .content h3 {
