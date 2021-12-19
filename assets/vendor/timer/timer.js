@@ -9,20 +9,24 @@
     let today = new Date(),
         dd = String(today.getDate()).padStart(2, "0"),
         mm = String(today.getMonth() + 1).padStart(2, "0"),
+        tt = String(today.getHours())
+        console.log(tt)
         yyyy = today.getFullYear(),
-        nextYear = yyyy + 1,
-        dayMonth = "12/20/",
+        // nextYear = yyyy + 1,
+        dayMonth = "18/12/20/",
         birthday = dayMonth + yyyy;
     
-    today = mm + "/" + dd + "/" + yyyy;
+    today = tt + "/" + mm + "/" + dd + "/" + yyyy;
+   
+   
     if (today > birthday) {
-      birthday = dayMonth + nextYear;
+      birthday = dayMonth
     }
+    // console.log(new Date().getTime())
     //end
     
-    const countDown = new Date(birthday).getTime(),
+    const countDown = new Date('December 20, 2021 18:00:00').getTime(),
         x = setInterval(function() {    
-  
           const now = new Date().getTime(),
                 distance = countDown - now;
   
