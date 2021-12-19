@@ -22,7 +22,7 @@
     if (today > birthday) {
       birthday = dayMonth
     }
-    // console.log(new Date().getTime())
+     
     //end
     
     const countDown = new Date('December 20, 2021 18:00:00').getTime(),
