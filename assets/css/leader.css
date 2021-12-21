@@ -134,3 +134,15 @@
 .list .item:hover .pos {
   opacity: 0.8;
 }
+
+@media (max-width: 575px) {
+   .top3{
+       display: block;
+   }
+   .top3 .item {
+       width: 100%;
+   }
+   .top3 .item.one {
+       width: 100%;
+   }
+  }
