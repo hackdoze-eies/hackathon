@@ -613,6 +613,11 @@ section {
   padding: 100px 0;
   overflow: hidden;
 }
+.section-1 {
+  padding: 500px 0;
+  overflow: hidden;
+  background: #130720;
+}
 
 .section-bg {
   background-color: #f9f8ff;
