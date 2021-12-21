@@ -50,9 +50,9 @@
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
-.top3 .item .score {
+/* .top3 .item .score {
    
-}
+} */
 .top3 .item .score:after {
   display: block;
   content: "points";
@@ -141,8 +141,17 @@
    }
    .top3 .item {
        width: 100%;
+      
    }
    .top3 .item.one {
        width: 100%;
+    
    }
   }
+
+  @media screen and (max-width: 575px) {
+    .container { display: flex; flex-flow: column; }
+    .top3 .item { order: 2; }
+    .top3 .item.one{ order: 1; }
+
+}
